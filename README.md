@@ -9,7 +9,7 @@ Live website - https://django-with-mosh.herokuapp.com/ <hr><br>
 * 2 - create a virtual environment and activate
 *  - pip install virtualenv
 *  - virtualenv env
-*  - env\scripts\activate
+*  - env\Scripts\activate
 * 3 - cd into project "Products_Myshop"
 * 4 - set your .env file with using .env_example
 * 5 - pip install -r requirements.txt
