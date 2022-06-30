@@ -1,4 +1,4 @@
-# MyShop site | Simple Django website 
+# PyShop | Simple Django website 
 Sourcode and Resources for MyShop Products
 <img src="./docs/images/photo-site.png">
 
@@ -7,11 +7,12 @@ Sourcode and Resources for MyShop Products
 * 1 - clone repo https://github.com/uzdevpython/Products_Myshop.git
 * 2 - create a virtual environment and activate
 *  - pip install virtualenv
-*  - virtualenv envname
-*  - envname\scripts\activate
-* 3 - cd into project "pyshop"
+*  - virtualenv env
+*  - env\scripts\activate
+* 3 - cd into project "Products_Myshop"
 * 4 - pip install -r requirements.txt
-* 5 - python manage.py runserver
+* 5 - python manage.py loaddata fixture/products.json
+* 6 - python manage.py runserver
 
 
 # Features
