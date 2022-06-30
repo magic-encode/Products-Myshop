@@ -1,5 +1,6 @@
 # PyShop | Simple Django website 
-Sourcode and Resources for MyShop Products
+Sourcode and Resources for MyShop Products <br>
+Live website - https://django-with-mosh.herokuapp.com/ <hr><br>
 <img src="./docs/images/photo-site.png">
 
 
