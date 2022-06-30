@@ -10,9 +10,10 @@ Sourcode and Resources for MyShop Products
 *  - virtualenv env
 *  - env\scripts\activate
 * 3 - cd into project "Products_Myshop"
-* 4 - pip install -r requirements.txt
-* 5 - python manage.py loaddata fixture/products.json
-* 6 - python manage.py runserver
+* 4 - set your .env file with using .env_example
+* 5 - pip install -r requirements.txt
+* 6 - python manage.py loaddata fixture/products.json
+* 7 - python manage.py runserver
 
 
 # Features
