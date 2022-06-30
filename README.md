@@ -1,7 +1,6 @@
 # MyShop site | Simple Django website 
 Sourcode and Resources for MyShop Products
-<img src="https://disrupt-africa.com/wp-content/uploads/2015/06/mytaxi.jpg">
-
+<img src="./docs/images/photo-site.png">
 
 
 # Installation
@@ -10,17 +9,16 @@ Sourcode and Resources for MyShop Products
 *  - pip install virtualenv
 *  - virtualenv envname
 *  - envname\scripts\activate
-* 3 - cd into project "cd my-taxi-api-v2"
+* 3 - cd into project "pyshop"
 * 4 - pip install -r requirements.txt
 * 5 - python manage.py runserver
 
 
 # Features
-* Info about Drivers such as JSON
-* Info about Clients such as JSON
-* GET,PUT,DELETE methods
+* Ability to add products from the admin panel
+
 
 # Completed with
 * Django 
-* Database Design and Models with MySQL
+* Database Design and Models with Postgresql
 * Deployment to heroku
