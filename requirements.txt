@@ -1,10 +1,14 @@
 asgiref==3.5.2
+autopep8==1.6.0
 Django==4.0.5
 environs==9.5.0
 marshmallow==3.17.0
 packaging==21.3
+psycopg2==2.9.3
+pycodestyle==2.8.0
 pyparsing==3.0.9
 python-dotenv==0.20.0
 sqlparse==0.4.2
+toml==0.10.2
 tzdata==2022.1
 whitenoise==6.2.0
