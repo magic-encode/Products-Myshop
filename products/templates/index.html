@@ -5,7 +5,7 @@
         {% for product in products %}
         <div class="col">
             <div class="card" style="width: 18rem; height: 450px; margin-left: 15px;">
-                <img class="card-img-top" src="{{ product.image_url }}" alt="Card image cap" />
+                <img class="card-img-top" style="height: 700;" src="{{ product.image_url }}" alt="Card image cap" />
                 <div class="card-body">
                     <h5 class="card-title">{{ product.name }}</h5>
                     <p class="card-text">($ {{ product.price }})</p>
