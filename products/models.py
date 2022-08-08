@@ -1,3 +1,4 @@
+import uuid
 from django.db import models
 
 
@@ -6,6 +7,8 @@ class Product(models.Model):
     price = models.FloatField()
     stock = models.IntegerField()
     image_url = models.CharField(max_length=2085)
+    id = models.UUIDField(default=uuid.uuid4, unique=True,
+                          primary_key=True, editable=False)
 
     
 class Offer(models.Model):
